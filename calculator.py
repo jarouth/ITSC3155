@@ -15,21 +15,24 @@ def divide(x, y):
 
 
 # Main function to ask user for input and then call the needed functions to run the calculator
-while (True):
+while True:
     number1 = int(input("Please input the first number:"))
     number2 = int(input("Please input the second number:"))
-    choice = int(input(
-        "Please input \n 1 for addition \n 2 for subtraction \n 3 for multiplication \n 4 for divison: \n "))
-    if (choice == 1):
+    choice = int(
+        input(
+            "Please input \n 1 for addition \n 2 for subtraction \n 3 for multiplication \n 4 for divison: \n "
+        )
+    )
+    if choice == 1:
         add(number1, number2)
         break
-    elif (choice == 2):
+    elif choice == 2:
         subtract(number1, number2)
         break
-    elif (choice == 3):
+    elif choice == 3:
         muliply(number1, number2)
         break
-    elif (choice == 4):
+    elif choice == 4:
         divide(number1, number2)
         break
     else:
