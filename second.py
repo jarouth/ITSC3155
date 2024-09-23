@@ -1,15 +1,20 @@
 def add(x, y):
     print(f"{x}+{y} equals {x+y}")
 
+
 def subtract(x, y):
     print(f"{x}-{y} equals {x-y}")
+
 
 def muliply(x, y):
     print(f"{x}*{y} equals {x*y}")
 
+
 def divide(x, y):
     print(f"{x}/{y} equals {x/y}")
 
+
+# Main function to ask user for input and then call the needed functions to run the calculator
 while (True):
     number1 = int(input("Please input the first number:"))
     number2 = int(input("Please input the second number:"))
